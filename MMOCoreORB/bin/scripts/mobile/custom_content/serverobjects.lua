@@ -7,5 +7,6 @@ includeFile("custom_content/npe/serverobjects.lua")
 includeFile("custom_content/som/serverobjects.lua")
 includeFile("custom_content/tatooine/serverobjects.lua")
 includeFile("custom_content/the_tutorial/serverobjects.lua")
+includeFile("custom_content/push/serverobjects.lua")
 
 --Root Folder

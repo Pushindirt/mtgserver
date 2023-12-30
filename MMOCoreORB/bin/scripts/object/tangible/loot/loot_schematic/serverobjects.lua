@@ -128,3 +128,8 @@ includeFile("tangible/loot/loot_schematic/technical_console_s02_schematic.lua")
 includeFile("tangible/loot/loot_schematic/throwpillow_schematic.lua")
 includeFile("tangible/loot/loot_schematic/tumble_blender_schematic.lua")
 includeFile("tangible/loot/loot_schematic/utensils_schematic.lua")
+
+--***Push***
+includeFile("tangible/loot/loot_schematic/sword_lightsaber_gen6_schematic.lua")
+includeFile("tangible/loot/loot_schematic/sword_lightsaber_polearm_gen6_schematic.lua")
+includeFile("tangible/loot/loot_schematic/sword_lightsaber_two_handed_gen6_must_schematic.lua")

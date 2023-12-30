@@ -56,7 +56,7 @@ Core3 = {
 	DBPort = 3306,
 	DBName = "swgemu",
 	DBUser = "swgemu",
-	DBPass = "123456",
+	DBPass = "d8d81975ec",
 	DBInstances = 2,
 	DBSecret = "swgemus3cr37!", -- Change this! This value should be unique and of reasonable length.
 
@@ -69,7 +69,7 @@ Core3 = {
 	MantisPort = 3306,
 	MantisName = "swgemu",
 	MantisUser = "swgemu",
-	MantisPass = "123456",
+	MantisPass = "d8d81975ec",
 	MantisPrfx = "mantis_", -- The prefix for your mantis tables.
 
 	MetricsHost = "localhost",
@@ -97,28 +97,28 @@ Core3 = {
 		"tutorial"
 	--]]
 	---[[
-		"chandrila",
+		--"chandrila",
 		"corellia",
-		"coruscant",
+		--"coruscant",
 		"dantooine",
 		"dathomir",
 		"dungeon1",
 		"dungeon2",
 		"endor",
-		"hoth",
-		"kaas",
-		"kashyyyk",
-		"kashyyyk_hunting",
-		"kashyyyk_rryatt_trail",
-		"kashyyyk_main",
-		"kashyyyk_south_dungeons",
-		"kashyyyk_north_dungeons",
-		"kashyyyk_pob_dungeons",
-		"kashyyyk_dead_forest",
+		--"hoth",
+		--"kaas",
+		--"kashyyyk",
+		--"kashyyyk_hunting",
+		--"kashyyyk_rryatt_trail",
+		--"kashyyyk_main",
+		--"kashyyyk_south_dungeons",
+		--"kashyyyk_north_dungeons",
+		--"kashyyyk_pob_dungeons",
+		--"kashyyyk_dead_forest",
 		"lok",
-		"mandalore",
+		--"mandalore",
 		--"moraband",
-		"mustafar",
+		--"mustafar",
 		"naboo",
 		"rori",
 		--"runtimerules",
@@ -139,7 +139,7 @@ Core3 = {
 		--"space_tatooine",
 		--"space_tatooine_2",
 		--"space_yavin4",
-		"taanab",
+		--"taanab",
 		"talus",
 		"tatooine",
 		"tutorial",
@@ -147,9 +147,10 @@ Core3 = {
 	},
 
 	-- directory of tres with live.cfg
-	TrePath = "/home/swgemu/workspace/tre",
+	TrePath = "/root/git/tre",
 
 	TreFiles = {
+		"push_addons_01.tre",
 		"mtg_patch_023.tre",
 		"mtg_patch_022.tre",
 		"mtg_planets.tre",

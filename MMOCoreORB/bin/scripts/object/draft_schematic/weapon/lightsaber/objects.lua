@@ -873,3 +873,27 @@ object_draft_schematic_weapon_lightsaber_shared_lightsaber_two_hand_gen5 = Share
 }
 
 ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_lightsaber_shared_lightsaber_two_hand_gen5, "object/draft_schematic/weapon/lightsaber/shared_lightsaber_two_hand_gen5.iff")
+
+--*****************************************************************************************************
+
+object_draft_schematic_weapon_lightsaber_shared_lightsaber_polearm_gen6 = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/weapon/lightsaber/shared_lightsaber_polearm_gen6.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_lightsaber_shared_lightsaber_polearm_gen6, "object/draft_schematic/weapon/lightsaber/shared_lightsaber_polearm_gen6.iff")	
+
+--*****************************************************************************************************
+
+object_draft_schematic_weapon_lightsaber_shared_lightsaber_two_hand_gen6_must = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/weapon/lightsaber/shared_lightsaber_two_hand_gen6_must.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_lightsaber_shared_lightsaber_two_hand_gen6_must, "object/draft_schematic/weapon/lightsaber/shared_lightsaber_two_hand_gen6_must.iff")
+
+--*****************************************************************************************************
+
+object_draft_schematic_weapon_lightsaber_shared_lightsaber_gen6 = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/weapon/lightsaber/shared_lightsaber_gen6.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_lightsaber_shared_lightsaber_gen6, "object/draft_schematic/weapon/lightsaber/shared_lightsaber_gen6.iff")

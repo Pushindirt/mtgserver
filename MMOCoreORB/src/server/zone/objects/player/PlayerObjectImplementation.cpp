@@ -60,7 +60,7 @@
 #include "server/zone/objects/player/events/StoreSpawnedChildrenTask.h"
 #include "server/zone/objects/player/events/RemoveSpouseTask.h"
 #include "server/zone/objects/player/events/PvpTefRemovalTask.h"
-#include "server/zone/objects/player/events/SpawnHelperDroidTask.h"
+//#include "server/zone/objects/player/events/SpawnHelperDroidTask.h"
 #include "server/zone/managers/visibility/VisibilityManager.h"
 #include "server/zone/managers/jedi/JediManager.h"
 #include "server/zone/objects/player/events/ForceRegenerationEvent.h"
@@ -504,7 +504,7 @@ void PlayerObjectImplementation::notifySceneReady() {
 	}
 
 	checkAndShowTOS();
-	createHelperDroid();
+	//createHelperDroid();
 }
 
 void PlayerObjectImplementation::sendFriendLists() {
@@ -3413,21 +3413,21 @@ String PlayerObjectImplementation::getPlayedTimeString(bool verbose) const {
 	return buf.toString();
 }
 
-void PlayerObjectImplementation::createHelperDroid() {
+//void PlayerObjectImplementation::createHelperDroid() {
 	// Only spawn droid if character is less than 1 days old
-	if (getCharacterAgeInDays() >= 1 || isPrivileged())
-		return;
+//	if (getCharacterAgeInDays() >= 0 || isPrivileged())
+//		return;
 
-	CreatureObject* player = dynamic_cast<CreatureObject*>(parent.get().get());
+//	CreatureObject* player = dynamic_cast<CreatureObject*>(parent.get().get());
 
-	if (player == nullptr)
-		return;
+//	if (player == nullptr)
+//		return;
 
-	Zone* zone = player->getZone();
+//	Zone* zone = player->getZone();
 
-	if (zone == nullptr || zone->getZoneName() == "tutorial")
-		return;
+//	if (zone == nullptr || zone->getZoneName() == "tutorial")
+//		return;
 
-	Reference<Task*> createDroid = new SpawnHelperDroidTask(player);
-	createDroid->schedule(5000);
-}
+//	Reference<Task*> createDroid = new SpawnHelperDroidTask(player);
+//	createDroid->schedule(5000);
+//}

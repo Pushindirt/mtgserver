@@ -28,7 +28,7 @@ helper_r2_unit = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 
-	templates = {"object/mobile/nhelper_droid.iff"},
+	templates = {"object/mobile/som/ig106.iff"},
 	lootGroups = {},
 
 	-- Primary and secondary weapon should be different types (rifle/carbine, carbine/pistol, rifle/unarmed, etc)

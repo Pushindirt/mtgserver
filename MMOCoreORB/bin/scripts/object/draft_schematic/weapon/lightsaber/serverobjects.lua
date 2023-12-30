@@ -62,3 +62,8 @@ includeFile("draft_schematic/weapon/lightsaber/lightsaber_two_hand_gen2.lua")
 includeFile("draft_schematic/weapon/lightsaber/lightsaber_two_hand_gen3.lua")
 includeFile("draft_schematic/weapon/lightsaber/lightsaber_two_hand_gen4.lua")
 includeFile("draft_schematic/weapon/lightsaber/lightsaber_two_hand_gen5.lua")
+
+--***Push***
+includeFile("draft_schematic/weapon/lightsaber/lightsaber_gen6.lua")
+includeFile("draft_schematic/weapon/lightsaber/lightsaber_polearm_gen6.lua")
+includeFile("draft_schematic/weapon/lightsaber/lightsaber_two_hand_gen6_must.lua")

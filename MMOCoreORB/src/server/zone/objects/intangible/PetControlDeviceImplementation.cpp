@@ -254,11 +254,11 @@ void PetControlDeviceImplementation::callObject(CreatureObject* player) {
 
 		Reference<CallPetTask*> callPet = new CallPetTask(_this.getReferenceUnsafeStaticCast(), player, "call_pet");
 
-		StringIdChatParameter message("pet/pet_menu", "call_pet_delay"); // Calling pet in %DI seconds. Combat will terminate pet call.
-		message.setDI(15);
-		player->sendSystemMessage(message);
+		//StringIdChatParameter message(""); // Calling pet in %DI seconds. Combat will terminate pet call.
+		//message.setDI(0);
+		//player->sendSystemMessage(message);
 
-		player->addPendingTask("call_pet", callPet, 15 * 1000);
+		player->addPendingTask("call_pet", callPet, 0 * 1000);
 
 		if (petControlObserver == nullptr) {
 			petControlObserver = new PetControlObserver(_this.getReferenceUnsafeStaticCast());

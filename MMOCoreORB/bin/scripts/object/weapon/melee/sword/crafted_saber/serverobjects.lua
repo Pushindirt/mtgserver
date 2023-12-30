@@ -128,3 +128,6 @@ includeFile("weapon/melee/sword/crafted_saber/sword_lightsaber_s7_training.lua")
 includeFile("weapon/melee/sword/crafted_saber/sword_lightsaber_s8_training.lua")
 includeFile("weapon/melee/sword/crafted_saber/sword_lightsaber_s9_training.lua")
 includeFile("weapon/melee/sword/crafted_saber/sword_lightsaber_training.lua")
+
+--***Push***
+includeFile("weapon/melee/sword/crafted_saber/sword_lightsaber_gen6.lua")
